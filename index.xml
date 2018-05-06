@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abu Baker Al-Shammari</title>
-    <link>http://bikibuku.github.io/</link>
+    <link>https://bikibuku.github.io/</link>
     <description>Recent content on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 06 May 2018 21:58:31 +0200</lastBuildDate>
     
-	<atom:link href="http://bikibuku.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bikibuku.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Work</title>
-      <link>http://bikibuku.github.io/posts/work/</link>
+      <link>https://bikibuku.github.io/posts/work/</link>
       <pubDate>Sun, 06 May 2018 21:58:31 +0200</pubDate>
       
-      <guid>http://bikibuku.github.io/posts/work/</guid>
+      <guid>https://bikibuku.github.io/posts/work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Info</title>
-      <link>http://bikibuku.github.io/network/info/</link>
+      <link>https://bikibuku.github.io/network/info/</link>
       <pubDate>Sun, 06 May 2018 14:38:21 +0200</pubDate>
       
-      <guid>http://bikibuku.github.io/network/info/</guid>
+      <guid>https://bikibuku.github.io/network/info/</guid>
       <description>I made this section since I am currently taking the Computer Networking course, and I feel the best way to learn is to explain and educate others. This is my first time trying, and it is still under development.
 Feel free to roam and learn, any feedback would be nice as well.
 Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP VLANS Router on a stick OSPF  - Baker</description>
@@ -32,10 +32,10 @@ Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP 
     
     <item>
       <title>OSI model</title>
-      <link>http://bikibuku.github.io/network/course/</link>
+      <link>https://bikibuku.github.io/network/course/</link>
       <pubDate>Sun, 06 May 2018 14:15:36 +0200</pubDate>
       
-      <guid>http://bikibuku.github.io/network/course/</guid>
+      <guid>https://bikibuku.github.io/network/course/</guid>
       <description>OSI model - open system interconnection model is a critical building block for your understanding of networking. It helps you troubleshoot networks, if the cable isn&amp;rsquo;t plugged (Physical - layer 1).  
 Layers It consist of layers shown in the figure beneath this text, and the layers are read bottom up.
    Layers Number      Application 7 All   Presentation 6 People   Session 5 Sleeping   Transport 4 Through   Network 3 Networking   Datalink 2 Don&amp;rsquo;t   Physical 1 Pass     Easy way to memorize the layers is to remember the sentence &amp;ldquo;All people sleeping through networking don&amp;rsquo;t pass&amp;rdquo;</description>
