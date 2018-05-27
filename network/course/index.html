@@ -149,8 +149,56 @@ bottom up.</p>
 
 <hr />
 
-<p>Still under construction
-<strong>- Baker</strong></p>
+<h3 id="layer-7-application-layer">Layer 7 - Application layer</h3>
+
+<p>This layer is very familiar for you, where applications such as HTTP, FTP and TELNET are used at this layer. You have to note that the application layer is not about individual applications (Chrome/Firefox), it is about the application protocol (HTTP that web browsers use). <strong>The layer is the for users and application process to access network recourses and services.</strong></p>
+
+<h4 id="so-what-do-the-application-layer-do">So what do the application layer do?</h4>
+
+<ul>
+<li>This layer provides network processes to application.</li>
+<li>It provides access for users and application processes to utilize network services.</li>
+<li>This layer provides the network services to the application (web browsers)</li>
+<li>It can identify communication partners</li>
+<li>Provide user authentication</li>
+</ul>
+
+<p>So what does that mean? The simplest way to explain this is:
+Picture Microsoft Word, it works with many different protocols, and then use the protocols to communicate with the lower layers of the OSI model.</p>
+
+<p>Other examples:</p>
+
+<ul>
+<li>Remote file access</li>
+<li>Remote printer access</li>
+<li>Resource sharing</li>
+<li>Directory services</li>
+</ul>
+
+<h3 id="layer-6-presentation-layer">Layer 6 - Presentation layer</h3>
+
+<p>This layer is concerned with the actual format the data is presented in i.e., we are looking at data representation / syntax. Presentation layer has to ensure that data is <strong>readable</strong> by receiving system. Data that is sent from one application can be successfully read by another application.</p>
+
+<p>You might think that different system format their data different, and you are right. The data needs to be changed to <strong>machine independent format</strong> (ASCII, MP3, JPG). <strong>So this layer formats data to be presented to application layer.</strong></p>
+
+<p>The layer also structures the data, negotiates data transfer syntax (using ASCII or unicode). It can also <strong>provide encryption</strong>: if you are sending music file from a device to another one, this layer will assure that the data is transmitted in the format that both sides understand.</p>
+
+<h3 id="layer-5-session-layer">Layer 5 - Session layer</h3>
+
+<p>The session layer is concerned with interhost communication. This layer is involved in the maintenance, establishment and termination of sessions between applications. This allows two application processes on different machines, to establish a session between them. This acts like a coordinator of communication between systems. So various protocols at this layer ensure that request and responses between applications can work properly over a session, but between those end-user application processes.</p>
+
+<p>Indicates session layer:</p>
+
+<ul>
+<li>Security</li>
+<li>Name recognition</li>
+<li>Logging
+<br/>
+<br/>
+<br/>
+Still under construction
+<strong>- Baker</strong></li>
+</ul>
 
   </article>
 </section>
