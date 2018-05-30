@@ -37,7 +37,7 @@ Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP 
       
       <guid>https://bikibuku.github.io/network/course/</guid>
       <description>OSI model - open system interconnection model is a critical building block for your understanding of networking. It helps you troubleshoot networks, if the cable isn&amp;rsquo;t plugged (Physical - layer 1).  
-Layers It consist of layers shown in the figure beneath this text, and the layers are read bottom up.
+Layers It consist of layers shown in the figure beneath this text, and the layers are read bottom up. Application, presentation and session layer is the primary focus of developers / SysAdmin / ServerAdmin.
    Layers Number      Application 7 All   Presentation 6 People   Session 5 Sleeping   Transport 4 Through   Network 3 Networking   Datalink 2 Don&amp;rsquo;t   Physical 1 Pass     Easy way to memorize the layers is to remember the sentence &amp;ldquo;All people sleeping through networking don&amp;rsquo;t pass&amp;rdquo;</description>
     </item>
     

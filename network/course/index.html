@@ -74,7 +74,8 @@ understanding of networking. It helps you troubleshoot networks, if the cable is
 <h4 id="layers">Layers</h4>
 
 <p>It consist of layers shown in the figure beneath this text, and the layers are read
-bottom up.</p>
+bottom up.
+Application, presentation and session layer is the primary focus of developers / SysAdmin / ServerAdmin.</p>
 
 <table>
 <thead>
@@ -192,13 +193,124 @@ Picture Microsoft Word, it works with many different protocols, and then use the
 <ul>
 <li>Security</li>
 <li>Name recognition</li>
-<li>Logging
-<br/>
-<br/>
-<br/>
-Still under construction
-<strong>- Baker</strong></li>
+<li>Logging</li>
 </ul>
+
+<h3 id="layer-4-transport-layer">Layer 4 - Transport layer</h3>
+
+<p>This layer ensures <strong>end to end communication</strong>, reliability and flow control. It also performs <strong>message segmentation</strong>, it accepts a message from the session layer, splits the message into smaller units and pass it down to the network layer for sending. <strong>Session multiplexing</strong> takes place at this layer, this allows for multiplexing several message streams or sessions into one logical link, this layer will keep track of which message belongs to which session. <strong>Flow control</strong> might be implemented in this layer, it will manage data transmission between devices to ensure that the transmitting device does not send more data than the receiving device can process.
+<br/></p>
+
+<p>Other things that transport layer does:</p>
+
+<ul>
+<li>Ensures data transport reliability</li>
+<li>Handles transportation issues between host</li>
+</ul>
+
+<p>Two main protocols at this layer is <strong>TCP</strong> (Transmission control protocol) and <strong>UDP</strong> (User Datagram Protocol), <em>please check the TCP/UDP post for more information.</em></p>
+
+<p><strong>TCP</strong>:</p>
+
+<ul>
+<li>Provides reliability</li>
+<li>Establishes, maintains and terminates virtual circuits between devices.</li>
+<li>So end systems will go through what&rsquo;s called the <strong>TCP handshake</strong> to establish a connection between each other</li>
+<li>If the packets is missing it will be retransmitted</li>
+<li>Acknowledgement of receipt of information</li>
+</ul>
+
+<p><strong>UDP</strong>:</p>
+
+<ul>
+<li>Does not provide reliability</li>
+<li>If packets are dropped, they are lost</li>
+<li>Does not retransmit lost packets<br /></li>
+<li>&ldquo;Lightweight&rdquo;</li>
+</ul>
+
+<h3 id="layer-3-network-layer">Layer 3 - Network layer</h3>
+
+<p>This layer is all about data delivery, where routers route data packets from one device to another. Cisco have something called layer 3 switches, they have router capabilities so that they can also route packet between VLANS within a network as an example. They chose the best path to deliver data based on the information provided. Here we have routing protocols like <strong>OSPF</strong> (Open shortest path first), <strong>BGP</strong> (border gateway protocol) or <strong>IS-IS</strong> (intermediate system-to-intermediate system). They use the logical addressing scheme of IPv4 to determine the best path.</p>
+
+<p><strong>Criteria to determine the best path</strong>:</p>
+
+<ul>
+<li>Cost</li>
+<li>Hop count</li>
+<li>Bandwith</li>
+<li>Longest match of network address</li>
+</ul>
+
+<p>In conclusion, this layer provides path determination and logical addressing.</p>
+
+<h3 id="layer-2-data-link-layer">Layer 2 - Data link layer</h3>
+
+<p>Here it provides physical addressing and access to media, it is concerned how data is formatted from upper layers for transmission over a given network technology. It is also concerned with how access to the network is controlled.
+<br/>
+<strong>The data link layer ensures that the data from higher layers is formatted correctly for transmission across individual physical links, where the physical links characteristics may vary (one link may be ethernet, PPP across a serial cable and other link may use DSL)</strong></p>
+
+<h3 id="layer-1-physical-layer">Layer 1 - Physical layer</h3>
+
+<p>The first layer in the OSI model is the physical layer, it defines here how data is transmitted <strong>So in other words, what state represents a 0 or a 1</strong>. It defines the electrical, mechanical, procedural and functional specifications for activating, maintaining and deactivating the physical link. This allows for <strong>interoperability</strong>. So long story short, it is about how to code/decode series of bits from and to the physical device (cable etc..).</p>
+
+<h3 id="peer-to-peer-communication">Peer to peer communication</h3>
+
+<table>
+<thead>
+<tr>
+<th>PC A</th>
+<th align="center">COMMUNICATION</th>
+<th align="right">PC B</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Application</td>
+<td align="center"></td>
+<td align="right">Application</td>
+</tr>
+
+<tr>
+<td>Presentation</td>
+<td align="center"></td>
+<td align="right">Presentation</td>
+</tr>
+
+<tr>
+<td>Session</td>
+<td align="center"></td>
+<td align="right">Session</td>
+</tr>
+
+<tr>
+<td>Transport</td>
+<td align="center">Segments</td>
+<td align="right">Transport</td>
+</tr>
+
+<tr>
+<td>Network</td>
+<td align="center">Packets</td>
+<td align="right">Network</td>
+</tr>
+
+<tr>
+<td>Data link</td>
+<td align="center">Frames</td>
+<td align="right">Data link</td>
+</tr>
+
+<tr>
+<td>Physical</td>
+<td align="center">Bits</td>
+<td align="right">Physical</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>- Baker</strong></p>
 
   </article>
 </section>
