@@ -5,10 +5,19 @@
     <link>https://bikibuku.github.io/network/</link>
     <description>Recent content in Networks on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 May 2018 14:38:21 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jun 2018 14:20:51 +0200</lastBuildDate>
     
 	<atom:link href="https://bikibuku.github.io/network/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Subnetting</title>
+      <link>https://bikibuku.github.io/network/subnetting/</link>
+      <pubDate>Sat, 02 Jun 2018 14:20:51 +0200</pubDate>
+      
+      <guid>https://bikibuku.github.io/network/subnetting/</guid>
+      <description>Important things to know before learning Subnetting is a bit complicated, here we will learn how to find the subnet address, 1st host address, last host adress and the broadcast address by knowing the IP address. There are some methods which is quicker, but I feel once you mastered some binary tasks, you will be able to do this quicker. I feel this is a lot more safer and more efficient way to do it.</description>
+    </item>
     
     <item>
       <title>Info</title>
