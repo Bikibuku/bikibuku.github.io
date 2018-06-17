@@ -3,50 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bikibuku.github.io/network/subnetting/</loc>
+    <loc>bikibuku.com/network/subnetting/</loc>
     <lastmod>2018-06-02T14:20:51+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/posts/work/</loc>
+    <loc>bikibuku.com/posts/work/</loc>
     <lastmod>2018-05-06T21:58:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/network/info/</loc>
+    <loc>bikibuku.com/network/info/</loc>
     <lastmod>2018-05-06T14:38:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/network/course/</loc>
+    <loc>bikibuku.com/network/course/</loc>
     <lastmod>2018-05-06T14:15:36+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/</loc>
+    <loc>bikibuku.com/about/about/</loc>
+    <lastmod>2018-05-06T14:06:59+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>bikibuku.com/about/</loc>
+    <lastmod>2018-05-06T14:06:59+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>bikibuku.com/</loc>
     <lastmod>2018-06-02T14:20:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/categories/</loc>
+    <loc>bikibuku.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/network/</loc>
+    <loc>bikibuku.com/network/</loc>
     <lastmod>2018-06-02T14:20:51+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/posts/</loc>
+    <loc>bikibuku.com/posts/</loc>
     <lastmod>2018-05-06T21:58:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bikibuku.github.io/tags/</loc>
+    <loc>bikibuku.com/tags/</loc>
     <priority>0</priority>
   </url>
   

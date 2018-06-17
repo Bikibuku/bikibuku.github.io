@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abu Baker Al-Shammari</title>
-    <link>https://bikibuku.github.io/</link>
+    <link>bikibuku.com/</link>
     <description>Recent content on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Jun 2018 14:20:51 +0200</lastBuildDate>
     
-	<atom:link href="https://bikibuku.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="bikibuku.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Subnetting</title>
-      <link>https://bikibuku.github.io/network/subnetting/</link>
+      <link>bikibuku.com/network/subnetting/</link>
       <pubDate>Sat, 02 Jun 2018 14:20:51 +0200</pubDate>
       
-      <guid>https://bikibuku.github.io/network/subnetting/</guid>
+      <guid>bikibuku.com/network/subnetting/</guid>
       <description>Important things to know before learning Subnetting is a bit complicated, here we will learn how to find the subnet address, 1st host address, last host adress and the broadcast address by knowing the IP address. There are some methods which is quicker, but I feel once you mastered some binary tasks, you will be able to do this quicker. I feel this is a lot more safer and more efficient way to do it.</description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>https://bikibuku.github.io/posts/work/</link>
+      <link>bikibuku.com/posts/work/</link>
       <pubDate>Sun, 06 May 2018 21:58:31 +0200</pubDate>
       
-      <guid>https://bikibuku.github.io/posts/work/</guid>
+      <guid>bikibuku.com/posts/work/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Info</title>
-      <link>https://bikibuku.github.io/network/info/</link>
+      <link>bikibuku.com/network/info/</link>
       <pubDate>Sun, 06 May 2018 14:38:21 +0200</pubDate>
       
-      <guid>https://bikibuku.github.io/network/info/</guid>
+      <guid>bikibuku.com/network/info/</guid>
       <description>I made this section since I am currently taking the Computer Networking course, and I feel the best way to learn is to explain and educate others. This is my first time trying, and it is still under development.
 Feel free to roam and learn, any feedback would be nice as well.
 Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP VLANS Router on a stick OSPF  - Baker</description>
@@ -41,13 +41,22 @@ Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP 
     
     <item>
       <title>OSI model</title>
-      <link>https://bikibuku.github.io/network/course/</link>
+      <link>bikibuku.com/network/course/</link>
       <pubDate>Sun, 06 May 2018 14:15:36 +0200</pubDate>
       
-      <guid>https://bikibuku.github.io/network/course/</guid>
+      <guid>bikibuku.com/network/course/</guid>
       <description>OSI model - open system interconnection model is a critical building block for your understanding of networking. It helps you troubleshoot networks, if the cable isn&amp;rsquo;t plugged (Physical - layer 1).  
 Layers It consist of layers shown in the figure beneath this text, and the layers are read bottom up. Application, presentation and session layer is the primary focus of developers / SysAdmin / ServerAdmin.
    Layers Number      Application 7 All   Presentation 6 People   Session 5 Sleeping   Transport 4 Through   Network 3 Networking   Datalink 2 Don&amp;rsquo;t   Physical 1 Pass     Easy way to memorize the layers is to remember the sentence &amp;ldquo;All people sleeping through networking don&amp;rsquo;t pass&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>bikibuku.com/about/about/</link>
+      <pubDate>Sun, 06 May 2018 14:06:59 +0200</pubDate>
+      
+      <guid>bikibuku.com/about/about/</guid>
+      <description>Who am I? My name is Abu Baker Al-Shammari, I live in Norway and I am currently studying IT-Operation and Information security. The reason why I chose to study it is simply because of my interest for security and privacy. What I like to do beside studying is training, it makes it easier to cool off. In my second year of university I became interested in CTF&amp;rsquo;s, it is a good way to learn variety of tools and methods.</description>
     </item>
     
   </channel>

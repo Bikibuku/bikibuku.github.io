@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Abu Baker Al-Shammari</title>
-    <link>https://bikibuku.github.io/tags/</link>
+    <link>bikibuku.com/tags/</link>
     <description>Recent content in Tags on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://bikibuku.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="bikibuku.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
