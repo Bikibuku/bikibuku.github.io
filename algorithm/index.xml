@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on Abu Baker Al-Shammari</title>
+    <link>http://bikibuku.com/algorithm/</link>
+    <description>Recent content in Algorithms on Abu Baker Al-Shammari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Jun 2018 12:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="http://bikibuku.com/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hashing</title>
+      <link>http://bikibuku.com/algorithm/hashing/</link>
+      <pubDate>Wed, 20 Jun 2018 12:47:08 +0200</pubDate>
+      
+      <guid>http://bikibuku.com/algorithm/hashing/</guid>
+      <description>Some basic information about hashing I would like to remember you that there are many different types of hashing, the one I am using is used in my course. The code is from Algorithms in C++ by Robert Segdewick.
+In this type of hashing you will find array, keys and return value.  The integer M is the length of the array, in this case it is 17 (0-16). You got two different hash types, where k is the letter number (A = 1).</description>
+    </item>
+    
+  </channel>
+</rss>

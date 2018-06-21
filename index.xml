@@ -5,10 +5,20 @@
     <link>http://bikibuku.com/</link>
     <description>Recent content on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 02 Jun 2018 14:20:51 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 12:47:08 +0200</lastBuildDate>
     
 	<atom:link href="http://bikibuku.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hashing</title>
+      <link>http://bikibuku.com/algorithm/hashing/</link>
+      <pubDate>Wed, 20 Jun 2018 12:47:08 +0200</pubDate>
+      
+      <guid>http://bikibuku.com/algorithm/hashing/</guid>
+      <description>Some basic information about hashing I would like to remember you that there are many different types of hashing, the one I am using is used in my course. The code is from Algorithms in C++ by Robert Segdewick.
+In this type of hashing you will find array, keys and return value.  The integer M is the length of the array, in this case it is 17 (0-16). You got two different hash types, where k is the letter number (A = 1).</description>
+    </item>
     
     <item>
       <title>Subnetting</title>
@@ -20,15 +30,6 @@
     </item>
     
     <item>
-      <title>Work</title>
-      <link>http://bikibuku.com/posts/work/</link>
-      <pubDate>Sun, 06 May 2018 21:58:31 +0200</pubDate>
-      
-      <guid>http://bikibuku.com/posts/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Info</title>
       <link>http://bikibuku.com/network/info/</link>
       <pubDate>Sun, 06 May 2018 14:38:21 +0200</pubDate>
@@ -36,7 +37,7 @@
       <guid>http://bikibuku.com/network/info/</guid>
       <description>I made this section since I am currently taking the Computer Networking course, and I feel the best way to learn is to explain and educate others. This is my first time trying, and it is still under development.
 Feel free to roam and learn, any feedback would be nice as well.
-Under construction OSI model IP Subnetting DHCP &amp;amp; DNS TCP &amp;amp; UDP VLANS Router on a stick OSPF  - Baker</description>
+Under construction OSI model IP Subnetting TCP &amp;amp; UDP VLANS Router on a stick OSPF  - Baker</description>
     </item>
     
     <item>
@@ -52,10 +53,10 @@ Layers It consist of layers shown in the figure beneath this text, and the layer
     
     <item>
       <title>About</title>
-      <link>http://bikibuku.com/about/about/</link>
+      <link>http://bikibuku.com/about/me/</link>
       <pubDate>Sun, 06 May 2018 14:06:59 +0200</pubDate>
       
-      <guid>http://bikibuku.com/about/about/</guid>
+      <guid>http://bikibuku.com/about/me/</guid>
       <description>Who am I? My name is Abu Baker Al-Shammari, I live in Norway and I am currently studying IT-Operation and Information security. The reason why I chose to study it is simply because of my interest for security and privacy. What I like to do beside studying is training, it makes it easier to cool off. In my second year of university I became interested in CTF&amp;rsquo;s, it is a good way to learn variety of tools and methods.</description>
     </item>
     
