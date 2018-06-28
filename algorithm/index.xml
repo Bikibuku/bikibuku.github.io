@@ -5,10 +5,21 @@
     <link>http://bikibuku.com/algorithm/</link>
     <description>Recent content in Algorithms on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jun 2018 12:47:08 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jun 2018 16:22:13 +0200</lastBuildDate>
     
 	<atom:link href="http://bikibuku.com/algorithm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Filecompression</title>
+      <link>http://bikibuku.com/algorithm/filecompression/</link>
+      <pubDate>Thu, 28 Jun 2018 16:22:13 +0200</pubDate>
+      
+      <guid>http://bikibuku.com/algorithm/filecompression/</guid>
+      <description>Compression using the LZW algorithm The algorithm was created ~1984 and is a simple algorithm to implement. In these type of exercises they provide us information that we start with 256 index and up, and we have to write the output. Let&amp;rsquo;s use &amp;ldquo;SASS_SASSER_SAM_SAMRE&amp;rdquo; as an example.
+I recommend to write input, dictionary and output in a table.
+The meaning of this algorithm is to re-use words in the dictionary so the output gets compressed, it is explained what is happening in the comment section.</description>
+    </item>
     
     <item>
       <title>Hashing</title>
@@ -16,7 +27,7 @@
       <pubDate>Wed, 20 Jun 2018 12:47:08 +0200</pubDate>
       
       <guid>http://bikibuku.com/algorithm/hashing/</guid>
-      <description>Some basic information about hashing I would like to remember you that there are many different types of hashing, the one I am using is used in my course. The code is from Algorithms in C++ by Robert Segdewick.
+      <description>Some basic information about hashing I would like to remind you that there are many different types of hashing, the one I am using is used in my course. The code is from Algorithms in C++ by Robert Segdewick.
 In this type of hashing you will find array, keys and return value.  The integer M is the length of the array, in this case it is 17 (0-16). You got two different hash types, where k is the letter number (A = 1).</description>
     </item>
     

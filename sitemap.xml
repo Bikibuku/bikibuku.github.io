@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://bikibuku.com/algorithm/filecompression/</loc>
+    <lastmod>2018-06-28T16:22:13+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bikibuku.com/algorithm/hashing/</loc>
     <lastmod>2018-06-20T12:47:08+02:00</lastmod>
   </url>
@@ -35,13 +40,13 @@
   
   <url>
     <loc>http://bikibuku.com/</loc>
-    <lastmod>2018-06-20T12:47:08+02:00</lastmod>
+    <lastmod>2018-06-28T16:22:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://bikibuku.com/algorithm/</loc>
-    <lastmod>2018-06-20T12:47:08+02:00</lastmod>
+    <lastmod>2018-06-28T16:22:13+02:00</lastmod>
     <priority>0</priority>
   </url>
   
