@@ -68,7 +68,7 @@
 
 <h3 id="compression-using-the-lzw-algorithm">Compression using the LZW algorithm</h3>
 
-<p>The algorithm was created ~1984 and is a simple algorithm to implement. In these type of exercises they provide us information that we start with <strong>256</strong> index and up, and we have to write the output. Let&rsquo;s use &ldquo;<strong>SASS_SASSER_SAM_SAMRE</strong>&rdquo; as an example.</p>
+<p>The algorithm was created ~1984 and is a simple algorithm to implement. In these type of exercises they provide us information that we start with <strong>256</strong> index and up, and we have to write the output. Lets use &ldquo;<strong>SASS_SASSER_SAM_SAMRE</strong>&rdquo; as an example.</p>
 
 <p>I recommend to write <strong>input</strong>, <strong>dictionary</strong> and <strong>output</strong> in a table.</p>
 
@@ -104,6 +104,59 @@ Before I explain you how to decode it, I recommend to look at the tree and write
 C - H - E - E - S - E</p>
 
 <p><strong>Congratulation, you decoded the message!</strong></p>
+
+<h3 id="huffman-coding-construction-process">Huffman coding (construction process)</h3>
+
+<p>This type of exercise takes a lot of time to finish compared to other exercises.</p>
+
+<p>You have to write/draw:</p>
+
+<ul>
+<li>Table for &ldquo;letter&rdquo; frequency.</li>
+<li>Table for &ldquo;dad&rdquo;</li>
+<li>Huffman tree.</li>
+<li>Bit pattern and length of the letter.</li>
+<li>Total of bits used to code the text.</li>
+</ul>
+
+<p>Lets code this text <strong>These exercises take too long time</strong>. We have to start with the frequency first. <strong>Top</strong> of the table is where you find the letters used in the text, <strong>k</strong> is the alphabet value of the letter (space is 0) and <strong>count[k]</strong> is where you count how many letters is in the text.</p>
+
+<p><img src="/letterfreq.png" alt="Example image" /></p>
+
+<p>1 / 5 of the exercise is done now, we can begin with the &ldquo;dad array&rdquo;. Always begin with <strong>k value of 27</strong> because the alphabet is only 26 long.</p>
+
+<p><img src="/dadarray.png" alt="Example image" /></p>
+
+<p>Table explained:</p>
+
+<ul>
+<li>You have first to write k value of 27 first in the table.</li>
+<li>Read right to left (<strong>count[k]</strong>) from the first table, we always begin with 1&rsquo;s.</li>
+<li>First <strong>count[k]</strong> value we find is <strong>X</strong>, so we put <strong>+</strong> 27 in the dad[k] array.</li>
+<li>We continue to search of 1&rsquo;s, the next one we find is <strong>R</strong>, so we put <strong>-</strong> 27 in the dad[k] array.<br /></li>
+<li>After you find two &ldquo;children&rdquo;, you have to count them. count[k] in this case will be 1 + 1 = <strong>2</strong>.</li>
+<li><strong>Remember that 27 is the first one the queue, aka you have to start searching here when you completed your round.</strong></li>
+<li>We just finished 31. For 32, we search for 2&rsquo;s. As written above, you have to start your search from 31 (since it was the last one used).</li>
+<li>For 35, we search for 3&rsquo;s since all 2&rsquo;s are taken.</li>
+<li>For 38, we search first for 5&rsquo;s. But there is only one, so we start new search of 6&rsquo;s.</li>
+</ul>
+
+<p><strong>The tree:</strong></p>
+
+<p><img src="/tree.png" alt="Example image" /></p>
+
+<p>You will have to write the <strong>code[k]</strong>, <strong>bits</strong>, <strong>len[k]</strong> and the <strong>total bits</strong> used after you finish drawing the tree.</p>
+
+<ul>
+<li>code[k] is the decimal value of the bit, lets use E for example. To arrive S (remember 1 for right, and 0 for left) the bit will be 1110. 1110 to decimal = 14. code[k] for S will be 14.</li>
+<li>Bits are the &ldquo;way&rdquo; to the letter, as shown above.</li>
+<li>len[k] is which level the letters belong to. For <strong>E</strong> its len[k] = 3, <strong>T</strong> and <strong>&rsquo; &lsquo;</strong> has len[k] = 4.</li>
+<li>Total bits is calculated like this: You take and multiply len[k] and count[k] for each letter and add them together.</li>
+</ul>
+
+<p><img src="/lenk.png" alt="Example image" /></p>
+
+<p>Total bits: (5 * 3) + (1 * 5) + (1 * 5) + (7 * 2) + (1 * 5) + (1 * 5) + (2 * 4) + (1 * 5) + (1 * 5) + (1 * 5) + (1 * 5) + (3 * 4) + (1 * 5) + (3 * 4) + (4 * 3) + (1 * 5) = <strong>123</strong> bits.</p>
 
   </article>
 </section>

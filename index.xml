@@ -16,7 +16,7 @@
       <pubDate>Thu, 28 Jun 2018 16:22:13 +0200</pubDate>
       
       <guid>http://bikibuku.com/algorithm/filecompression/</guid>
-      <description>Compression using the LZW algorithm The algorithm was created ~1984 and is a simple algorithm to implement. In these type of exercises they provide us information that we start with 256 index and up, and we have to write the output. Let&amp;rsquo;s use &amp;ldquo;SASS_SASSER_SAM_SAMRE&amp;rdquo; as an example.
+      <description>Compression using the LZW algorithm The algorithm was created ~1984 and is a simple algorithm to implement. In these type of exercises they provide us information that we start with 256 index and up, and we have to write the output. Lets use &amp;ldquo;SASS_SASSER_SAM_SAMRE&amp;rdquo; as an example.
 I recommend to write input, dictionary and output in a table.
 The meaning of this algorithm is to re-use words in the dictionary so the output gets compressed, it is explained what is happening in the comment section.</description>
     </item>
