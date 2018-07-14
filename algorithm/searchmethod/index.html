@@ -11,10 +11,10 @@
 
     <base href="http://bikibuku.com/">
     <title>
-  Algorithms · Abu Baker Al-Shammari
+  Elementary searching methods · Abu Baker Al-Shammari
 </title>
 
-    <link rel="canonical" href="http://bikibuku.com/algorithm/">
+    <link rel="canonical" href="http://bikibuku.com/algorithm/searchmethod/">
 
     <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
@@ -23,9 +23,6 @@
     <link rel="icon" type="image/png" href="http://bikibuku.com/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="http://bikibuku.com/images/favicon-16x16.png" sizes="16x16">
 
-    
-      <link href="http://bikibuku.com/algorithm/index.xml" rel="alternate" type="application/rss+xml" title="Abu Baker Al-Shammari" />
-      <link href="http://bikibuku.com/algorithm/index.xml" rel="feed" type="application/rss+xml" title="Abu Baker Al-Shammari" />
     
 
     <meta name="generator" content="Hugo 0.40.2" />
@@ -61,30 +58,46 @@
 
       <div class="content">
         
-  <section class="container list">
-  <h1 class="title">Algorithms</h1>
-  <ul>
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Elementary searching methods</h1>
+    </header>
+
     
-    <li>
-      <span>July 10, 2018</span><a href="/algorithm/searchmethod/">Elementary searching methods</a>
-    </li>
-    
-    <li>
-      <span>June 28, 2018</span><a href="/algorithm/filecompression/">Filecompression</a>
-    </li>
-    
-    <li>
-      <span>June 20, 2018</span><a href="/algorithm/hashing/">Hashing</a>
-    </li>
-    
-  </ul>
-  
 
+<p><br/></p>
 
+<h3 id="get-the-keys-and-sort-them-asap">Get the keys and sort them asap</h3>
 
+<p>In these type of exercises you often get some keys, in the order left to right where <strong>space does not count</strong>.
+It is not hard, but I recommend to draw the tree and always keep some extra space in case you mess up. I will go through <strong>heap</strong>, <strong>binary search tree</strong>, <strong>2-3-4 tree</strong> and <strong>red black tree</strong>.</p>
 
+<p>The keys are: <strong>M A N C H E S T E R</strong></p>
 
+<h3 id="heap">Heap</h3>
 
+<p>All you have to do here is start with the keys (left to right) and fill in the tree. Is the key higher value than the &ldquo;dad&rdquo;? If yes, change the position.</p>
+
+<p><img src="/heap.png" alt="Example image" /></p>
+
+<blockquote>
+<p>The answer here, in level order: TSNHREMAEC</p>
+</blockquote>
+
+<h3 id="binary-search-tree">binary search tree</h3>
+
+<p>The only rules you need:</p>
+
+<ul>
+<li>The root is the first key of the keys (M in this case).</li>
+<li>If the key is greater or equal, go right.</li>
+<li>If the key is less, go left.</li>
+</ul>
+
+<p><img src="/bintree.png" alt="Example image" /></p>
+
+  </article>
 </section>
 
 

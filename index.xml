@@ -5,10 +5,20 @@
     <link>http://bikibuku.com/</link>
     <description>Recent content on Abu Baker Al-Shammari</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Jun 2018 16:22:13 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 10 Jul 2018 21:57:27 +0200</lastBuildDate>
     
 	<atom:link href="http://bikibuku.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Elementary searching methods</title>
+      <link>http://bikibuku.com/algorithm/searchmethod/</link>
+      <pubDate>Tue, 10 Jul 2018 21:57:27 +0200</pubDate>
+      
+      <guid>http://bikibuku.com/algorithm/searchmethod/</guid>
+      <description>Get the keys and sort them asap In these type of exercises you often get some keys, in the order left to right where space does not count. It is not hard, but I recommend to draw the tree and always keep some extra space in case you mess up. I will go through heap, binary search tree, 2-3-4 tree and red black tree.
+The keys are: M A N C H E S T E R</description>
+    </item>
     
     <item>
       <title>Filecompression</title>
