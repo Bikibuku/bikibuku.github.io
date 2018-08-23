@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://bikibuku.com/stego/info/</loc>
+    <lastmod>2018-08-20T20:31:09+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://bikibuku.com/algorithm/searchmethod/</loc>
     <lastmod>2018-07-10T21:57:27+02:00</lastmod>
   </url>
@@ -45,7 +50,7 @@
   
   <url>
     <loc>http://bikibuku.com/</loc>
-    <lastmod>2018-07-10T21:57:27+02:00</lastmod>
+    <lastmod>2018-08-20T20:31:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -63,6 +68,12 @@
   <url>
     <loc>http://bikibuku.com/network/</loc>
     <lastmod>2018-06-02T14:20:51+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://bikibuku.com/stego/</loc>
+    <lastmod>2018-08-20T20:31:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   

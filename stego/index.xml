@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stegos on Abu Baker Al-Shammari</title>
+    <link>http://bikibuku.com/stego/</link>
+    <description>Recent content in Stegos on Abu Baker Al-Shammari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Aug 2018 20:31:09 +0200</lastBuildDate>
+    
+	<atom:link href="http://bikibuku.com/stego/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Stego</title>
+      <link>http://bikibuku.com/stego/info/</link>
+      <pubDate>Mon, 20 Aug 2018 20:31:09 +0200</pubDate>
+      
+      <guid>http://bikibuku.com/stego/info/</guid>
+      <description>What is this? Steganography is basically a way to conceal message, file or picture inside a file. The reason why I am writing about this is because many of the challenges you find in CTF are &amp;ldquo;stego&amp;rdquo;. For example, you receive a picture, where you either have to look what&amp;rsquo;s inside the file or go through filters to uncover the hidden text.
+How do I decode or encode? By doing many CTF&amp;rsquo;s and failing over and over again, you will come across many tools.</description>
+    </item>
+    
+  </channel>
+</rss>
